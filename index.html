@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="slide slide--fade">
+        <div class="slide__number">1 / 3</div>
+        <img class="slide__image" src="./images/dog1.jpg" alt="dog" />
+        <div class="slide__caption">Slide 1</div>
+      </div>
+
+      <div class="slide slide--fade">
+        <div class="slide__number">2 / 3</div>
+        <img class="slide__image" src="./images/dog2.jpg" alt="dog" />
+        <div class="slide__caption">Slide 2</div>
+      </div>
+
+      <div class="slide slide--fade">
+        <div class="slide__number">3 / 3</div>
+        <img class="slide__image" src="./images/dog3.jpg" alt="dog" />
+        <div class="slide__caption">Slide 3</div>
+      </div>
+
+      <a href="#" class="slide__arrows slide__prev" id="left">
+        <!-- <img src="./images/arrow.png" /> -->
+      </a>
+      <a href="#" class="slide__arrows slide__next" id="right">
+        <!-- <img src="./images/arrow.png" /> -->
+      </a>
+
+      <div class="slide__dots">
+        <span id="one" class="slide__dot"></span>
+        <span id="two" class="slide__dot"></span>
+        <span id="three" class="slide__dot"></span>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
